@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WikiBot</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2><i class="bi bi-robot"></i> WikiBot</h2>
+    <ul>
+      <li id="new-chat"><i class="bi bi-plus-circle"></i> New Chat</li>
+      <li id="search-chat"><i class="bi bi-search"></i> Search Chat</li>
+      <li id="previous-searches"><i class="bi bi-clock-history"></i> Previous Searches</li>
+      <li id="settings"><i class="bi bi-gear"></i> Settings</li>
+    </ul>
+  </div>
+
+
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="heading">Hello there, I'm your WikiBot 👋</div>
+    <div class="subheading">Your virtual encyclopedia</div>
+    <div class="prompt">just a word and I will give you details 😊 </div>
+
+    <div class="chat-box" id="chat-box">
+      <!-- Chat messages appear here -->
+      <div class="message bot">👋 Hey there! What do you want to learn today?</div>
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="Ask me anything..." onkeydown="handleKey(event)" />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
