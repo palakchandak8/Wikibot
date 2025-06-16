@@ -14,7 +14,18 @@ Built with HTML, CSS, JS for the frontend and Python for the backend.
 - Hosting: GitHub Pages (Frontend), Replit (Backend)
 
 ## Getting Started
-1. Clone the repo
-2. Run `wikibot.py` locally or on Replit
-3. Open `index.html` or deploy via GitHub Pages
+
+You can either:
+
+### ✅ Use the Live Version
+Visit: [https://palakchandak8.github.io/Wikibot/](https://palakchandak8.github.io/Wikibot/)
+
+or
+
+### 🛠️ Run Locally or on Replit
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/palakchandak8/Wikibot.git
+   cd Wikibot
 
